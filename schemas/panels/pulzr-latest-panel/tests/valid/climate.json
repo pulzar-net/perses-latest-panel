@@ -1,0 +1,10 @@
+{
+  "kind": "PulzrLatestPanel",
+  "spec": {
+    "format": { "unit": "decimal", "decimalPlaces": 1 },
+    "formats": { "cham.rh": { "unit": "percent", "decimalPlaces": 0 } },
+    "thresholds": { "steps": [{ "value": 35, "color": "#e8a33d" }] },
+    "staleAfter": 900,
+    "labels": { "cham.t": "Chamber", "cham.rh": "Chamber RH" }
+  }
+}
