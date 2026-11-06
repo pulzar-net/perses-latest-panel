@@ -1,3 +1,3 @@
-module github.com/pulzr/perses-latest-panel
+module github.com/pulzar-net/perses-latest-panel
 
 go 1.27.1
