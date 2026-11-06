@@ -113,5 +113,8 @@
     "type": "git",
     "url": "git+https://github.com/pulzar-net/perses-latest-panel.git"
   },
-  "homepage": "https://github.com/pulzar-net/perses-latest-panel#readme"
+  "homepage": "https://github.com/pulzar-net/perses-latest-panel#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
