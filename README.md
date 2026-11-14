@@ -1,5 +1,10 @@
 # Latest values panel for Perses
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/pulzar-net/perses-latest-panel/releases/latest/download/preview-dark.png">
+  <img alt="The PulzrLatestPanel: the latest temperature and humidity of three cold rooms, one greyed as stale" src="https://github.com/pulzar-net/perses-latest-panel/releases/latest/download/preview-light.png">
+</picture>
+
 `PulzrLatestPanel` shows each series' current value, how long ago it was read ("just now", "5 minutes ago"), and greys a value read longer ago than `staleAfter` seconds. One tile per series, laid out to fit.
 
 ```yaml

@@ -1,0 +1,113 @@
+{
+ "$schema": "https://raw.githubusercontent.com/pulzar-net/perses-panel-preview/main/sample.schema.json",
+ "timeRange": {
+  "start": "2026-01-14T00:00:00Z",
+  "end": "2026-01-15T00:00:00Z"
+ },
+ "panel": {
+  "kind": "Panel",
+  "spec": {
+   "display": {
+    "name": "Cold rooms now"
+   },
+   "plugin": {
+    "kind": "PulzrLatestPanel",
+    "spec": {
+     "format": {
+      "unit": "decimal",
+      "decimalPlaces": 1
+     },
+     "formats": {
+      "a.rh": {
+       "unit": "percent",
+       "decimalPlaces": 0
+      },
+      "b.rh": {
+       "unit": "percent",
+       "decimalPlaces": 0
+      }
+     },
+     "labels": {
+      "a.t": "Room A",
+      "a.rh": "Room A humidity",
+      "b.t": "Room B",
+      "b.rh": "Room B humidity",
+      "c.t": "Room C"
+     },
+     "staleAfter": 900
+    }
+   }
+  }
+ },
+ "queries": [
+  {
+   "series": [
+    {
+     "name": "a.t",
+     "values": [
+      [
+       1768434480000,
+       3.762
+      ],
+      [
+       1768435080000,
+       3.8
+      ]
+     ]
+    },
+    {
+     "name": "a.rh",
+     "values": [
+      [
+       1768434570000,
+       81.17999999999999
+      ],
+      [
+       1768435170000,
+       82
+      ]
+     ]
+    },
+    {
+     "name": "b.t",
+     "values": [
+      [
+       1768434360000,
+       4.356
+      ],
+      [
+       1768434960000,
+       4.4
+      ]
+     ]
+    },
+    {
+     "name": "b.rh",
+     "values": [
+      [
+       1768434300000,
+       78.21
+      ],
+      [
+       1768434900000,
+       79
+      ]
+     ]
+    },
+    {
+     "name": "c.t",
+     "values": [
+      [
+       1768423800000,
+       5.0489999999999995
+      ],
+      [
+       1768424400000,
+       5.1
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
